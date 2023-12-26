@@ -188,9 +188,9 @@ def class_unref_symbols(path):
     symbols = class_symbols(path)
 
     # ###### 测试 ######
-    # print("所有的类列表")
-    # all_class_list = find_class_list(class_list_pointers(path, binary_file_arch), symbols)
-    # print(all_class_list)
+    print("所有的类列表")
+    all_class_list = find_class_list(class_list_pointers(path, binary_file_arch), symbols)
+    print(all_class_list)
     #
     # print("\n所有的被引用的类列表")
     # all_class_ref_list = find_class_list(class_ref_pointers(path, binary_file_arch), symbols)

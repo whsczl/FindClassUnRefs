@@ -93,4 +93,4 @@ if __name__ == '__main__':
     path = getInputParm()
     # path = '/Users/a58/Library/Developer/Xcode/DerivedData/ClassUnRefDemo001-flxylfbdptrduxdpiaxpntqefjtq/Build/Products/Debug-iphonesimulator/ClassUnRefDemo001.app/ClassUnRefDemo001'
     imp_ivars_info = get_all_class_ivars(path)
-    # print(imp_ivars_info)
+    print(imp_ivars_info)
